@@ -1,0 +1,98 @@
+
+body {
+	background-color:#aeaeae;
+    color:#000000;
+    font-family:'Source Sans Pro', Helvetica, sans-serif;
+    margin:0px;
+    padding:0px;
+}
+
+.container {
+    width:90%;
+    background-color:#fff;
+    margin:0px auto;
+    padding:0px;
+}
+
+/*p {
+	padding:5px 0px 0px 10px;
+}*/
+
+header, nav, main, aside, footer {
+    width:90%;
+    margin:0px auto;
+}
+
+header {
+	height:75px;
+	background-color:#88d5d1;
+}
+
+nav{
+	height:75px;
+	background-color:#d5d188;
+}
+
+main {
+	height:300px;
+	background-color:#88b3D5;
+	width:55%;
+	float:left;
+	margin-left:5%;
+}
+
+aside {
+	height:300px;
+	background-color:#d5888c;
+	width:35%;
+	float:left;
+}
+
+.promoA, .promoB, .promoC, .promoD  {
+	height:150px;
+	width:22.5%;
+	float:left;
+	background-color: #d5ab88;
+	outline-style: solid;
+	outline-color: #ffffff
+}
+
+.promoA {
+	margin-left:5%;
+}
+
+
+footer {
+	height:75px;
+	background-color:gray;
+	clear:both;
+}
+
+@media (max-width:768px) {
+	header, nav, main, aside, footer, {
+		width:100%;
+		display:block;
+	}
+	.promoA, .promoB, .promoC, .promoD {
+		width:45%;
+		background-color: #888cd5;
+	}
+	main, .promoA, .promoC, {
+		margin:0;
+	}
+
+	.promoC {
+		margin-left: 5%;
+	}
+}
+
+@media (max-width: 400px) {
+	header, nav, main, aside, footer, .promoA, .promoB, .promoC, .promoD {
+		width:100%;
+		display:block;
+	}
+
+	main, .promoA, .promoC {
+		margin:0;
+	}
+}
